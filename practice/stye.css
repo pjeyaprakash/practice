@@ -1,0 +1,95 @@
+/* CSS for styling the sign-up form */
+
+/* Styles for the body */
+body {
+    /* Background image */
+    background: url("media/bgimg2.jpg");
+    /* Font family for the entire body */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Styles for the sign-up form */
+.signup {
+    /* Width and centering the form */
+    width: 500px;
+    margin: auto;
+    /* Background color with transparency */
+    background-color: rgba(72, 72, 72, 0.5);
+    /* Text color */
+    color: azure;
+    /* Padding */
+    padding: 10px 20px 30px;
+    /* Font size */
+    font-size: 25px;
+    /* Border radius for rounded corners */
+    border-radius: 18px;
+}
+
+/* Styles for the "sign up" heading */
+.signup h2 {
+    /* Centering the text */
+    text-align: center;
+    /* Custom text color */
+    color: rgb(145, 238, 254);
+}
+
+/* Styles for textboxes inside the sign-up form */
+.signup .textbox {
+    /* Display style for labels */
+    display: block;
+}
+
+/* Styles for input elements */
+.input input {
+    /* Input width */
+    width: 500px;
+    /* Input height */
+    height: 28px;
+    /* Font size for the input */
+    font-size: 1em;
+    /* Padding */
+    padding: 7px;
+    /* Border style and color */
+    border: 1px solid rgb(180, 180, 247);
+    /* Border radius for rounded corners */
+    border-radius: 8px;
+    /* Margin and box sizing */
+    margin: 5px 0px 20px;
+    box-sizing: border-box;
+}
+
+/* Styles for input elements when focused */
+input:focus {
+    /* Background color when focused */
+    background-color: rgb(200, 242, 253);
+}
+
+/* Styles for the submit button */
+.btn {
+    /* Centering the text */
+    text-align: center;
+}
+
+/* Styles for the button */
+button {
+    /* Background color */
+    background-color: blue;
+    /* Text color */
+    color: azure;
+    /* Padding */
+    padding: 10px 20px;
+    /* Margin from the top */
+    margin-top: 25px;
+    /* Font size */
+    font-size: 30px;
+    /* Border radius for rounded corners */
+    border-radius: 15px;
+}
+
+/* Styles for radio input elements */
+.radio input {
+    /* Accent color for the radio button */
+    accent-color: blue;
+    /* Scale for the radio button */
+    transform: scale(1.5);
+}
