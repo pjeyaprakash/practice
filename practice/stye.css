@@ -88,7 +88,7 @@ button {
 
 /* Styles for radio input elements */
 .radio input {
-    /* Accent color for the radio button */
+    /* color for the radio button when clicked */
     accent-color: blue;
     /* Scale for the radio button */
     transform: scale(1.5);
